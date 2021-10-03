@@ -1,0 +1,52 @@
+.hero-section {
+    background: url(../../images/slider-img1.jpg) no-repeat center;
+    background-size: cover;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    padding: 200px 0;
+}
+.overlay h1 {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    width: 600px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+.overlay span {
+    color: #fff;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.regular-btn {
+    background: #fe8366;
+    border: 1px solid #fe8366;
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    text-decoration: none;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+.regular-btn:hover, .border-btn {
+    background: no-repeat;
+    color: #fe8366;
+}
+.border-btn:hover {
+    background: #fe8366;
+    color: #fff;
+}

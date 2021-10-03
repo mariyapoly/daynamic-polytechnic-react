@@ -1,0 +1,44 @@
+.about-area {
+    padding: 100px 0;
+}
+.about-thumb {
+    padding-right:30px;
+    position: relative;
+}
+.about-thumb::before {
+    position: absolute;
+    content: '';
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe8366;
+    z-index: -1;
+    border-radius: 8px;
+}
+.about-thumb img {
+ width: 100%;
+}
+.about-text {
+    margin-left: 30px;
+}
+.about-text span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #002147;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.about-text h2 {
+    font-size: 45px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    color: #002147;
+    margin-bottom: 30px;
+}
+.about-text p {
+    font-size: 16px;
+    color: #565872;
+    margin-bottom: 40px;
+}
