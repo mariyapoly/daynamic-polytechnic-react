@@ -67,7 +67,7 @@ const Footer = () => {
                         </ul>
                     </Col>
                 </Row>
-                <p className="copyright">Copyright &copy; 2015 Daynamic Polytechnic Institute. </p>
+                <p className="copyright">Copyright &copy; 2021 Daynamic Polytechnic Institute. </p>
             </Container>
         </footer>
     );
