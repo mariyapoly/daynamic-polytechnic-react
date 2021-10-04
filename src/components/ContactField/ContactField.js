@@ -9,7 +9,7 @@ const ContactField = () => {
         <div className="contact-bg">
             <Container>
                 <Row>
-                    <Col md={4}>
+                    <Col md={4} xs={12} sm={12}>
                         <div>
                             <h3>Get in touch</h3>
                             <p>Looking for help? Fill the form and start a new adventure.</p>
@@ -32,7 +32,7 @@ const ContactField = () => {
 
                         </div>
                     </Col>
-                    <Col md={8}>
+                    <Col md={8} xs={12} sm={12}>
                         <div className="contact-form">
                             <h4>Let’s Connect</h4>
                             <input className="me-4" type="text" placeholder="first name" />

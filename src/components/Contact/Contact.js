@@ -17,9 +17,7 @@ const Contact = () => {
                                     <NavLink className="link" to="/home">Home</NavLink>
                                     <span className="mx-2">/</span>
                                     <NavLink activeClassName="active" className="link" to="/contact">contact</NavLink>
-
                                 </Breadcrumb>
-
                             </div>
                         </Row>
                     </Container>

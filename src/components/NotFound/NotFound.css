@@ -22,3 +22,51 @@
     width: 640px;
     margin: 0 auto 30px;
 }
+@media (min-width: 320px) and (max-width: 575px) { 
+    .not-found-bg {
+        padding: 65px 0;
+    }
+    .not-found-bg h1 {
+        font-size: 100px;
+    }
+    .not-found-bg p {
+        width: auto;
+        font-size: 15px;
+        margin: 0 auto 20px;
+    }
+    .not-found-bg h3 {
+        font-size: 24px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .not-found-bg {
+        padding: 65px 0;
+    }
+    .not-found-bg h1 {
+        font-size: 100px;
+    }
+    .not-found-bg p {
+        width: auto;
+        font-size: 15px;
+        margin: 0 auto 20px;
+    }
+    .not-found-bg h3 {
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .not-found-bg {
+        padding: 80px 0;
+    }
+    .not-found-bg h1 {
+        font-size: 120px;
+    }
+    .not-found-bg p {
+        width: auto;
+        font-size: 16px;
+        margin: 0 auto 20px;
+    }
+    .not-found-bg h3 {
+        font-size: 28px;
+    }
+}

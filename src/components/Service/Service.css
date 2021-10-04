@@ -43,3 +43,22 @@
 .service-date .right-border::before {
     right: -8px;
 }
+@media (min-width: 320px) and (max-width: 575px) { 
+    .service-date .border-course::before {
+        width: 0;
+    
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .service-date .border-course::before {
+        width: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .service-date .border-course::before {
+        right: 20px;
+    }
+    .service-date .right-border::before {
+        right: -4px;
+    }
+}

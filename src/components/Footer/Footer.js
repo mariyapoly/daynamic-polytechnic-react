@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="footer">
             <Container>
                 <Row className="footer-border">
-                    <Col md={4}>
+                    <Col md={4} xs={12} sm={12}>
                         <div>
                             <NavLink className="logo" to="/">Daynamic <span>Polytechnic Institute</span></NavLink>
                             <ul className="address">
@@ -30,7 +30,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} xs={12} sm={12}>
                         <h3>Explore</h3>
                         <ul>
                             <li>
@@ -42,7 +42,7 @@ const Footer = () => {
                             <li><NavLink className="link" to="/contact">Contact Us</NavLink></li>
                         </ul>
                     </Col>
-                    <Col md={2}>
+                    <Col md={2} xs={12} sm={12}>
                         <h3>Courses</h3>
                         <ul>
                             <li>
@@ -54,7 +54,7 @@ const Footer = () => {
                             <li><NavLink className="link" to="/service">Electronics</NavLink></li>
                         </ul>
                     </Col>
-                    <Col md={3}>
+                    <Col md={3} xs={12} sm={12}>
                         <h3>Support</h3>
                         <ul>
                             <li>

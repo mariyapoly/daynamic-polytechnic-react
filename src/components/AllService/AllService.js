@@ -11,7 +11,7 @@ const AllService = () => {
     return (
         <div className="all-service">
             <Container>
-                <h2 className="section-title">Our Services</h2>
+                <h2 className="section-title">Our Courses</h2>
                 <Row>
                     {
                         services.map(service => <Service

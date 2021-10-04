@@ -12,11 +12,11 @@ const OurServices = () => {
                     <Container>
                         <Row>
                             <div>
-                                <h1>Our service</h1>
+                                <h1>Our Courses</h1>
                                 <Breadcrumb>
                                     <NavLink className="link" to="/home">Home</NavLink>
                                     <span className="mx-2">/</span>
-                                    <NavLink activeClassName="active" className="link" to="/service">service</NavLink>
+                                    <NavLink activeClassName="active" className="link" to="/service">Courses</NavLink>
                                 </Breadcrumb>
                             </div>
                         </Row>

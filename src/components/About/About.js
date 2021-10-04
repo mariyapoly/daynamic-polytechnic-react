@@ -9,12 +9,12 @@ const About = () => {
         <div className="about-area">
             <Container>
                 <Row className="align-items-center">
-                    <Col md={6}>
+                    <Col md={6} xs={12} sm={12}>
                         <div className="about-thumb">
                             <img src={aboutThumb} alt="about-thumb" />
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} xs={12} sm={12}>
                         <div className="section-text">
                             <span>about us</span>
                             <h2>Education in continuing a proud tradition.</h2>

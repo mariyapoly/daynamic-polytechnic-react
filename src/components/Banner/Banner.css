@@ -51,3 +51,40 @@
     background: #fe8366;
     color: #fff;
 }
+
+@media (min-width: 320px) and (max-width: 575px) { 
+    .overlay {
+        padding: 75px 0;
+    }
+    .overlay h1 {
+        font-size: 30px;
+        width: auto;
+    }
+    .regular-btn {
+        padding: 8px 17px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .overlay {
+        padding: 75px 0;
+    }
+    .overlay h1 {
+        font-size: 30px;
+        width: auto;
+    }
+    .regular-btn {
+        padding: 8px 17px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .overlay {
+        padding: 100px 0;
+    }
+    .overlay h1 {
+        font-size: 40px;
+        width: 500px;
+    }
+    .regular-btn {
+        padding: 12px 25px;
+    }
+}

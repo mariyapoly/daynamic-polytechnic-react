@@ -17,9 +17,7 @@ const AboutOus = () => {
                                     <NavLink className="link" to="/home">Home</NavLink>
                                     <span className="mx-2">/</span>
                                     <NavLink activeClassName="active" className="link" to="/about">about</NavLink>
-
                                 </Breadcrumb>
-
                             </div>
                         </Row>
                     </Container>

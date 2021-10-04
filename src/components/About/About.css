@@ -43,3 +43,60 @@
     color: #565872;
     margin-bottom: 40px;
 }
+@media (min-width: 320px) and (max-width: 575px) { 
+    .about-area {
+        padding: 65px 0 70px;
+    }
+    .about-thumb {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .section-text h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .section-text p {
+        margin-bottom: 20px;
+    }
+    .section-text span {
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .about-area {
+        padding: 65px 0 70px;
+    }
+    .about-thumb {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .section-text h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .section-text p {
+        margin-bottom: 20px;
+    }
+    .section-text span {
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    .about-area {
+        padding: 80px 0;
+    }
+    .about-thumb {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .section-text h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .section-text p {
+        margin-bottom: 20px;
+    }
+    .section-text span {
+        font-size: 16px;
+    }
+}

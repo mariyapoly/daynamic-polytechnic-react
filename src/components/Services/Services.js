@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <section className="service-area">
             <Container>
-                <h2 className="section-title">Our Services</h2>
+                <h2 className="section-title">Our Courses</h2>
                 <Row>
                     {
                         newServices.map(service => <Service
