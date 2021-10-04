@@ -10,6 +10,7 @@ import AboutOus from './components/AboutOus/AboutOus';
 import OurServices from './components/OurServices/OurServices';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
+import OurTeachers from './components/OurTeachers/OurTeachers';
 
 export const serviceContext = createContext();
 
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route exact path="/service">
               <OurServices></OurServices>
+            </Route>
+            <Route exact path="/teacher">
+              <OurTeachers></OurTeachers>
             </Route>
             <Route exact path="/contact">
               <Contact></Contact>

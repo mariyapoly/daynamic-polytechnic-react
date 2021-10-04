@@ -11,18 +11,19 @@ const Services = () => {
     const services = useContext(serviceContext)
     const newServices = services.slice(0, 4);
     return (
-        <section className="service-area">
+        <div className="service-area">
             <Container>
                 <h2 className="section-title">Our Courses</h2>
                 <Row>
                     {
                         newServices.map(service => <Service
                             key={service.id}
-                            service={service}></Service>)
+                            service={service}>
+                        </Service>)
                     }
                 </Row>
             </Container>
-        </section>
+        </div>
     );
 };
 

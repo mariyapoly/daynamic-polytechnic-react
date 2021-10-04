@@ -8,7 +8,7 @@ import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <div className="footer">
             <Container>
                 <Row className="footer-border">
                     <Col md={4} xs={12} sm={12}>
@@ -69,7 +69,7 @@ const Footer = () => {
                 </Row>
                 <p className="copyright">Copyright &copy; 2021 Daynamic Polytechnic Institute. </p>
             </Container>
-        </footer>
+        </div>
     );
 };
 
