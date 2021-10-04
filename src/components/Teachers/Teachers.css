@@ -1,6 +1,8 @@
+/*------ teacher container css -------*/
 .teacher-container {
     padding: 120px 0;
 }
+/*-------- media query --------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .teacher-container {
         padding: 60px 0 40px;

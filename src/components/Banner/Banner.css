@@ -1,3 +1,4 @@
+/*--------- banner css ---------*/
 .hero-section {
     background: url(../../images/slider-img1.jpg) no-repeat center;
     background-size: cover;
@@ -14,7 +15,7 @@
     font-weight: 700;
     font-size: 60px;
     width: 600px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     text-transform: capitalize;
 }
 .overlay span {
@@ -51,7 +52,7 @@
     background: #fe8366;
     color: #fff;
 }
-
+/*-------- media query ----------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .overlay {
         padding: 75px 0;

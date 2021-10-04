@@ -6,11 +6,12 @@ import Service from '../Service/Service';
 import './Services.css'
 
 const Services = () => {
-
-
+    // set use context
     const services = useContext(serviceContext)
     const newServices = services.slice(0, 4);
+
     return (
+        // service area start
         <div className="service-area">
             <Container>
                 <h2 className="section-title">Our Courses</h2>
@@ -24,6 +25,7 @@ const Services = () => {
                 </Row>
             </Container>
         </div>
+        // service area start
     );
 };
 

@@ -1,3 +1,4 @@
+/*-------- service card css --------*/
 .service-card {
     margin-bottom: 30px;
 }
@@ -43,6 +44,7 @@
 .service-date .right-border::before {
     right: -8px;
 }
+/*--------- media query ---------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .service-date .border-course::before {
         width: 0;

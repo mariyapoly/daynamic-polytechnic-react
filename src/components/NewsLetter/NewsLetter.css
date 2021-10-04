@@ -1,3 +1,4 @@
+/*------- newsletter css ------*/
 .newsletter-bg {
     background-color: #F7F7FF;
     padding: 80px 0;
@@ -31,6 +32,7 @@
     text-transform: capitalize;
     font-weight: 700;
 }
+/*------ media query ------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .newsletter-bg {
         padding: 60px 0;

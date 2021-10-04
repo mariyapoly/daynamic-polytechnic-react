@@ -5,6 +5,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
+        // hero section start
         <div className="hero-section">
             <div className="overlay">
                 <Container>
@@ -15,6 +16,7 @@ const Banner = () => {
                 </Container>
             </div>
         </div>
+        // hero section end
     );
 };
 

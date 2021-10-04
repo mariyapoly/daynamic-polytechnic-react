@@ -5,10 +5,11 @@ import Teacher from '../Teacher/Teacher';
 import './AllTeachers.css'
 
 const AllTeachers = () => {
-
+    // set useTeachers hooks
     const [teachers] = useTeachers();
 
     return (
+        // teachers container start
         <div className="teachers-container">
             <Container>
                 <h2 className="section-title">Our Teachers</h2>
@@ -21,6 +22,7 @@ const AllTeachers = () => {
                 </Row>
             </Container>
         </div>
+        // teachers container end
     );
 };
 

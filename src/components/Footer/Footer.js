@@ -8,6 +8,7 @@ import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/
 
 const Footer = () => {
     return (
+        // footer start
         <div className="footer">
             <Container>
                 <Row className="footer-border">
@@ -70,6 +71,7 @@ const Footer = () => {
                 <p className="copyright">Copyright &copy; 2021 Daynamic Polytechnic Institute. </p>
             </Container>
         </div>
+        // footer end
     );
 };
 

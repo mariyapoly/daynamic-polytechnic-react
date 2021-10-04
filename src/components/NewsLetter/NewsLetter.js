@@ -4,6 +4,7 @@ import './NewsLetter.css'
 
 const NewsLetter = () => {
     return (
+        // newsletter start
         <div className="newsletter-bg">
             <Container>
                 <Row className="align-items-center">
@@ -23,6 +24,7 @@ const NewsLetter = () => {
                 </Row>
             </Container>
         </div>
+        // newsletter end
     );
 };
 

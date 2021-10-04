@@ -16,8 +16,10 @@ export const serviceContext = createContext();
 
 function App() {
 
+  // declear state storage data
   const [services, setServices] = useState([]);
 
+  //declear use effect for data load 
   useEffect(() => {
     fetch('./fakeCourses.JSON')
       .then(res => res.json())
@@ -39,7 +41,7 @@ function App() {
             <Route exact path="/about">
               <AboutOus></AboutOus>
             </Route>
-            <Route exact path="/service">
+            <Route exact path="/courses">
               <OurServices></OurServices>
             </Route>
             <Route exact path="/teacher">

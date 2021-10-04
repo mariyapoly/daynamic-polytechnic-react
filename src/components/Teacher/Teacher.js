@@ -5,10 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const Teacher = (props) => {
-
+    // destructuring for object value
     const { name, img } = props.teacher || {};
 
     return (
+        // single teacher start
         <Col md={4} lg={3} xs={12} sm={12}>
             <div className="single-teacher">
                 <img src={img} alt="" />
@@ -27,6 +28,7 @@ const Teacher = (props) => {
                 </div>
             </div>
         </Col>
+        // single teacher end
     );
 };
 

@@ -6,7 +6,8 @@ import './AboutOus.css'
 
 const AboutOus = () => {
     return (
-        <div>
+        <div className="about-us">
+            {/* about bread crumb start */}
             <div className="section-bg">
                 <div className="overlay">
                     <Container>
@@ -23,6 +24,7 @@ const AboutOus = () => {
                     </Container>
                 </div>
             </div>
+            {/* about bread crumb end */}
             <About></About>
         </div>
 

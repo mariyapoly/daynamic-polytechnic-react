@@ -1,3 +1,4 @@
+/*--------- service css -----*/
 .service-area {
     padding: 110px 0 120px;
     background-color: #F7F7FF;
@@ -9,6 +10,7 @@
     font-weight: 700;
     margin-bottom: 40px;
 }
+/*-------- media query --------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .service-area {
         padding: 60px 0 40px;

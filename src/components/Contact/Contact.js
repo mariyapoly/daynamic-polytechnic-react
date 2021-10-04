@@ -7,6 +7,7 @@ import ContactField from '../ContactField/ContactField';
 const Contact = () => {
     return (
         <div>
+            {/* contact start */}
             <div className="section-bg">
                 <div className="overlay">
                     <Container>
@@ -23,6 +24,7 @@ const Contact = () => {
                     </Container>
                 </div>
             </div>
+            {/* contact end */}
             <ContactField></ContactField>
         </div>
     );

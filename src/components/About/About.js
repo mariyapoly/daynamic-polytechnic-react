@@ -6,6 +6,7 @@ import './About.css'
 
 const About = () => {
     return (
+        // about area start
         <div className="about-area">
             <Container>
                 <Row className="align-items-center">
@@ -29,6 +30,7 @@ const About = () => {
                 </Row>
             </Container>
         </div>
+        // about area end
     );
 };
 

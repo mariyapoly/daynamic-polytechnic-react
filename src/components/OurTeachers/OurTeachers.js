@@ -7,6 +7,7 @@ import NewsLetter from '../NewsLetter/NewsLetter';
 const OurTeachers = () => {
     return (
         <div>
+            {/* bread crumb start */}
             <div className="section-bg">
                 <div className="overlay">
                     <Container>
@@ -23,8 +24,8 @@ const OurTeachers = () => {
                     </Container>
                 </div>
             </div>
+            {/* bread crumb end */}
             <AllTeachers></AllTeachers>
-            <NewsLetter></NewsLetter>
         </div>
     );
 };

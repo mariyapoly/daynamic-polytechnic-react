@@ -5,12 +5,12 @@ import Teacher from '../Teacher/Teacher';
 import './Teachers.css'
 
 const Teachers = () => {
-
+    // set useTeachers for accept data
     const [teachers] = useTeachers();
-
     const newTeacher = teachers.slice(0, 4);
 
     return (
+        // teacher container start
         <div className="teacher-container">
             <Container>
                 <h2 className="section-title">Our Teachers</h2>
@@ -23,6 +23,7 @@ const Teachers = () => {
                 </Row>
             </Container>
         </div>
+        // teacher container end
     );
 };
 

@@ -1,3 +1,4 @@
+/*------- about css ------*/
 .about-area {
     padding: 120px 0 130px;
 }
@@ -42,6 +43,7 @@
     color: #565872;
     margin-bottom: 40px;
 }
+/*------- media query --------*/
 @media (min-width: 320px) and (max-width: 575px) { 
     .about-area {
         padding: 65px 0 70px;

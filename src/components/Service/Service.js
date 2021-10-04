@@ -9,6 +9,7 @@ const Service = (props) => {
     const { courseName, courseImg, price, courseTitle } = props.service || {};
 
     return (
+        // service card start
         <Col lg={3} md={6} xs={12} sm={12}>
             <Card className="service-card">
                 <Card.Img className="service-thumb" variant="top" src={courseImg} />
@@ -29,6 +30,7 @@ const Service = (props) => {
                 </Card.Body>
             </Card>
         </Col>
+        // service card end
     );
 };
 

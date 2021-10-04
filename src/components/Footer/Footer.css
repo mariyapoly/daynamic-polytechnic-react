@@ -1,3 +1,4 @@
+/*--------- footer css --------*/
 .footer {
     padding: 80px 0 20px;
 }
@@ -83,6 +84,7 @@ ul.social-icon {
         margin-top: 15px;
     }
 }
+/*------- media qurey ---------*/
 @media (min-width: 576px) and (max-width: 767px) { 
     .footer {
         padding: 55px 0 20px;

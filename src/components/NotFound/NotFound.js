@@ -5,6 +5,7 @@ import './NotFound.css'
 
 const NotFound = () => {
     return (
+        // not found start
         <div className='text-center not-found-bg'>
             <Container>
                 <h1>404</h1>
@@ -13,6 +14,7 @@ const NotFound = () => {
                 <NavLink className="regular-btn" to="/">Back To Home</NavLink>
             </Container>
         </div>
+        // not found end
     );
 };
 
