@@ -1,3 +1,6 @@
+.service-card {
+    margin-bottom: 30px;
+}
 .service-thumb {
     height: 230px;
 }
@@ -9,6 +12,9 @@
 }
 .service-text, .wishlist-icon, .price, .service-date span {
     color: #565872;
+}
+.service-text {
+    font-size: 15px;
 }
 .service-date {
     margin-top: 15px;

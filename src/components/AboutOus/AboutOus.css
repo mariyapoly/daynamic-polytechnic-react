@@ -1,0 +1,15 @@
+.section-bg {
+    background: url(../../images/breadcrumb-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.section-bg .overlay {
+    padding: 90px 0;
+}
+.section-bg .link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+.section-bg .active {
+    color: #fe8366;
+}

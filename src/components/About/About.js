@@ -15,7 +15,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <div className="about-text">
+                        <div className="section-text">
                             <span>about us</span>
                             <h2>Education in continuing a proud tradition.</h2>
                             <p>We are one of the largest, most diverse polytechnic institute in the BD with over 90,000 students in BD.

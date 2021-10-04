@@ -1,5 +1,6 @@
 .about-area {
     padding: 120px 0 130px;
+    background-color: #F7F7FF;
 }
 .about-thumb {
     padding-right:30px;
@@ -22,7 +23,7 @@
 .about-text {
     margin-left: 30px;
 }
-.about-text span {
+.section-text span {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -30,14 +31,14 @@
     margin-bottom: 10px;
     display: inline-block;
 }
-.about-text h2 {
+.section-text h2 {
     font-size: 45px;
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     color: #002147;
     margin-bottom: 30px;
 }
-.about-text p {
+.section-text p {
     font-size: 16px;
     color: #565872;
     margin-bottom: 40px;

@@ -5,6 +5,11 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 import { createContext } from 'react';
+import Footer from './components/Footer/Footer';
+import AboutOus from './components/AboutOus/AboutOus';
+import OurServices from './components/OurServices/OurServices';
+import NotFound from './components/NotFound/NotFound';
+import Contact from './components/Contact/Contact';
 
 export const serviceContext = createContext();
 
@@ -27,7 +32,23 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
+            <Route exact path="/home">
+              <Home></Home>
+            </Route>
+            <Route exact path="/about">
+              <AboutOus></AboutOus>
+            </Route>
+            <Route exact path="/service">
+              <OurServices></OurServices>
+            </Route>
+            <Route exact path="/contact">
+              <Contact></Contact>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </div>
     </serviceContext.Provider>
