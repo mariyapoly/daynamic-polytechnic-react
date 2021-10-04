@@ -11,9 +11,9 @@ const Services = () => {
     const services = useContext(serviceContext)
     const newServices = services.slice(0, 4);
     return (
-        <div>
+        <section className="service-area">
             <Container>
-                <h2>Our Services</h2>
+                <h2 className="section-title">Our Services</h2>
                 <Row>
                     {
                         newServices.map(service => <Service
@@ -22,7 +22,7 @@ const Services = () => {
                     }
                 </Row>
             </Container>
-        </div>
+        </section>
     );
 };
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import './Service.css'
+import './Service.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Service = (props) => {
 
@@ -11,12 +13,18 @@ const Service = (props) => {
             <Card>
                 <Card.Img className="service-thumb" variant="top" src={courseImg} />
                 <Card.Body>
-                    <Card.Title>{courseName}</Card.Title>
-                    <Card.Text>
-                        {courseTitle}
+                    <Card.Title className="service-title">{courseName}</Card.Title>
+                    <Card.Text className="service-text">
+                        {courseTitle.slice(0, 80)}
                     </Card.Text>
-                    <div>
-                        <span>{price}</span>
+                    <div className="d-flex justify-content-between">
+                        <span className="price">$ {price}</span>
+                        <FontAwesomeIcon className="wishlist-icon" icon={faHeart} />
+                    </div>
+                    <div className="d-flex justify-content-between service-date">
+                        <span className="border-course">4 Years Course</span>
+                        <span className="border-course right-border">7 Semester</span>
+                        <span>8 AM - 2 PM Classes</span>
                     </div>
                 </Card.Body>
             </Card>

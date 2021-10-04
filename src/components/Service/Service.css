@@ -1,3 +1,39 @@
 .service-thumb {
     height: 230px;
 }
+.service-title {
+    color: #002147;
+    font-family: 'Jost', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+.service-text, .wishlist-icon, .price, .service-date span {
+    color: #565872;
+}
+.service-date {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.service-date span {
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+.service-date .border-course::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 9px;
+    width: 1px;
+    height: 100%;
+    background-color: #565872;
+
+}
+.service-date .right-border {
+    margin-right: 16px;
+    display: inline-block;
+}
+.service-date .right-border::before {
+    right: -8px;
+}
