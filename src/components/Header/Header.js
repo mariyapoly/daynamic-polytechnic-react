@@ -14,7 +14,7 @@ const Header = () => {
                     <Nav className="ms-auto nav-items">
                         <NavLink activeClassName="active" className="link" to="/home">Home</NavLink>
                         <NavLink activeClassName="active" className="link" to="/about">About Us</NavLink>
-                        <NavLink activeClassName="active" className="link" to="/courses">Courses</NavLink>
+                        <NavLink activeClassName="active" className="link" to="/course">Courses</NavLink>
                         <NavLink activeClassName="active" className="link" to="/teacher">Teachers</NavLink>
                         <NavLink activeClassName="active" className="link" to="/contact">Contact</NavLink>
                     </Nav>

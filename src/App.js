@@ -41,7 +41,7 @@ function App() {
             <Route exact path="/about">
               <AboutOus></AboutOus>
             </Route>
-            <Route exact path="/courses">
+            <Route exact path="/course">
               <OurServices></OurServices>
             </Route>
             <Route exact path="/teacher">

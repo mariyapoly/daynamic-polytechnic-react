@@ -2,7 +2,6 @@ import React from 'react';
 import { Breadcrumb, Container, Row } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import AllTeachers from '../AllTeachers/AllTeachers';
-import NewsLetter from '../NewsLetter/NewsLetter';
 
 const OurTeachers = () => {
     return (

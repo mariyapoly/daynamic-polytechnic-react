@@ -17,7 +17,7 @@ const OurServices = () => {
                                 <Breadcrumb>
                                     <NavLink className="link" to="/home">Home</NavLink>
                                     <span className="mx-2">/</span>
-                                    <NavLink activeClassName="active" className="link" to="/service">Courses</NavLink>
+                                    <NavLink activeClassName="active" className="link" to="/course">Courses</NavLink>
                                 </Breadcrumb>
                             </div>
                         </Row>
