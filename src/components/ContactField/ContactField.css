@@ -1,0 +1,40 @@
+.contact-bg {
+    background-color: #F7F7FF;
+    padding: 120px 0 120px;
+}
+.contact-form input, textarea {
+    width: 48.3%;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #565872;
+    outline: none;
+}
+textarea {
+    height: 200px;
+    resize: none;
+}
+.contact-bg h3 {
+    font-family: 'Jost', sans-serif; 
+    font-size: 30px;
+    color: #002147;
+    font-weight: 700;
+}
+.contact-bg h5, .contact-form h4 {
+    font-family: 'Jost', sans-serif; 
+    font-size: 20px;
+    color: #002147;
+    font-weight: 700;
+}
+.contact-bg p{
+    color: #565872;
+    font-weight: 500;
+    margin-right: 65px;
+}
+.contact-bg .phone{
+    margin: 30px 0;
+}
+.phone-icon, .email-icon {
+    font-size: 18px;
+    margin-right: 15px;
+}
