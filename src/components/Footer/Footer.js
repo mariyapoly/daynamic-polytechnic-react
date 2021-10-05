@@ -47,12 +47,12 @@ const Footer = () => {
                         <h3>Courses</h3>
                         <ul>
                             <li>
-                                <NavLink className="link" to="/service">All Courses</NavLink>
+                                <NavLink className="link" to="/course">All Courses</NavLink>
                             </li>
-                            <li><NavLink className="link" to="/service">Architecture</NavLink></li>
-                            <li><NavLink className="link" to="/service">Civil</NavLink></li>
-                            <li><NavLink className="link" to="/service">Computer</NavLink></li>
-                            <li><NavLink className="link" to="/service">Electronics</NavLink></li>
+                            <li><NavLink className="link" to="/course">Architecture</NavLink></li>
+                            <li><NavLink className="link" to="/course">Civil</NavLink></li>
+                            <li><NavLink className="link" to="/course">Computer</NavLink></li>
+                            <li><NavLink className="link" to="/course">Electronics</NavLink></li>
                         </ul>
                     </Col>
                     <Col md={3} xs={12} sm={12}>

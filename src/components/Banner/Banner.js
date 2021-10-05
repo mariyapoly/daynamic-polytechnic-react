@@ -1,9 +1,19 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import './Banner.css';
 
 const Banner = () => {
+
+    let history = useHistory();
+
+    const handleClickBtn = () => {
+        history.push("/contact")
+    }
+    const handleMorekBtn = () => {
+        history.push("/")
+    }
+
     return (
         // hero section start
         <div className="hero-section">
@@ -11,8 +21,9 @@ const Banner = () => {
                 <Container>
                     <span>DISCOVER RESEARCH</span>
                     <h1>A better learning future starts here</h1>
-                    <NavLink className="regular-btn" to="/contact">Get A Quote</NavLink>
-                    <NavLink className="regular-btn border-btn" to="/">Read More</NavLink>
+                    <button onClick={handleClickBtn} className="regular-btn">Get A Quote</button>
+                    <button onClick={handleMorekBtn} className="regular-btn">Read More</button>
+
                 </Container>
             </div>
         </div>
